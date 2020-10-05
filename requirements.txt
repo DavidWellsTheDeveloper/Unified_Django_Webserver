@@ -2,3 +2,4 @@ Django
 djangorestframework
 netifaces
 psycopg2
+whitenoise
