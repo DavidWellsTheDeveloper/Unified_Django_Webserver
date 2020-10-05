@@ -84,7 +84,8 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+# Local development tunnel:
+# ssh -L 3333:127.0.0.1:5432 root@164.90.144.193 -N
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -93,6 +94,7 @@ DATABASES = {
         'PASSWORD': 'c4f3480bfbd330aeb932fe75bb382adb',
         'HOST': 'localhost',
         'PORT': '',
+        # 'PORT': '3333',
     }
 }
 
