@@ -1,0 +1,4 @@
+Django
+djangorestframework
+netifaces
+psycopg2

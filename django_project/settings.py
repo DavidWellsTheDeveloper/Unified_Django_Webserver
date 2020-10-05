@@ -49,6 +49,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 3ed party
+    'rest_framework',
+
+    # Project apps
+    'profilesite.apps.ProfilesiteConfig',
 ]
 
 MIDDLEWARE = [
